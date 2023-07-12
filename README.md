@@ -22,8 +22,8 @@
 3) Произвести тестирование
 4) Написать отчёт о тестировании
 # Тест-план
-||https://www.notion.so/a45acc10af9243f2b2e5a3f95f1d584f||
+https://www.notion.so/a45acc10af9243f2b2e5a3f95f1d584f
 # Отчёт о тестировании
-||https://www.notion.so/724beeebe5574b20898a7a1eee8d035b||
+https://www.notion.so/724beeebe5574b20898a7a1eee8d035b
 
 2. 
