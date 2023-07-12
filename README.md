@@ -15,7 +15,7 @@
 > `SOAP`
 > `Тестирование мобильных приложений `
 ## Проекты
-1. Тестирование
+### 1. Тестирование
 Что нужно было сделать:
 1) Произвести тестирование для Веб-приложения для преподавателей от Skyeng и Мобильного приложение для учеников Skyeng
 2) Составить план тестирования
@@ -25,5 +25,25 @@
 https://www.notion.so/a45acc10af9243f2b2e5a3f95f1d584f
 ### Отчёт о тестировании
 https://www.notion.so/724beeebe5574b20898a7a1eee8d035b
+### Выводы: Приложение готово к выпуску, значительных и препятствующих работе приложению багов не выявлено. В следующей версии хотелось бы увидеть выбор устройства вывода звука у преподавателя.
+Приложение выполняет свои главные функции.
 
-2. 
+### 2. Дипломная работа, выполненная в Postman
+Что нужно было сделать:
+Подставить токен пользователя и выполнить запросы через Post/Del/Get
+Ссылка на приложенный к портфолио файл:
+https://github.com/HeCaxap17/Portfolio/blob/main/%D0%94%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC-postman.json
+### Выводы: Всё работает корректно.
+
+### 3. Работа с html страницы
+Что нужно было сделать:
+1) Скопировать код страницы
+2) Отредактировать его, как дано по условию задания
+https://github.com/HeCaxap17/Portfolio/blob/main/N1.html (Задание https://raptor-mvk.github.io/qa-html-css-homework/task1.html)
+https://github.com/HeCaxap17/Portfolio/blob/main/N2.html (Задание https://raptor-mvk.github.io/qa-html-css-homework/task2.html)
+https://github.com/HeCaxap17/Portfolio/blob/main/N3.html (Задание https://raptor-mvk.github.io/qa-html-css-homework/task3.html) 
+### Выводы: Код отредактирован, как было указано в условии.
+
+# Контактная информация
+1) Email : v.krezo@yandex.by
+
