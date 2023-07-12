@@ -39,9 +39,9 @@ https://github.com/HeCaxap17/Portfolio/blob/main/%D0%94%D0%B8%D0%BF%D0%BB%D0%BE%
 Что нужно было сделать:
 1) Скопировать код страницы
 2) Отредактировать его, как дано по условию задания:
-* [Первое задание](https://github.com/HeCaxap17/Portfolio/blob/main/N1.html) (Задание https://raptor-mvk.github.io/qa-html-css-homework/task1.html)
-* [Второе задание](https://github.com/HeCaxap17/Portfolio/blob/main/N2.html) (Задание https://raptor-mvk.github.io/qa-html-css-homework/task2.html)
-* [Третье задание](https://github.com/HeCaxap17/Portfolio/blob/main/N3.html) (Задание https://raptor-mvk.github.io/qa-html-css-homework/task3.html) 
+* [Первое задание](https://github.com/HeCaxap17/Portfolio/blob/main/N1.html) (Условие https://raptor-mvk.github.io/qa-html-css-homework/task1.html)
+* [Второе задание](https://github.com/HeCaxap17/Portfolio/blob/main/N2.html) (Условие https://raptor-mvk.github.io/qa-html-css-homework/task2.html)
+* [Третье задание](https://github.com/HeCaxap17/Portfolio/blob/main/N3.html) (Условие https://raptor-mvk.github.io/qa-html-css-homework/task3.html) 
 ### Выводы: Код отредактирован, как было указано в условии.
 
 # Контактная информация
