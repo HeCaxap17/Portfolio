@@ -1,0 +1,172 @@
+{
+	"info": {
+		"_postman_id": "39c9800e-9f05-4f30-8863-3a27d2a4fc10",
+		"name": "Диплом",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25069942"
+	},
+	"item": [
+		{
+			"name": "1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "token_global=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1c2VySWQiOjE0NzIwMDY5LCJpZGVudGl0eSI6InRlc3QudHN0MzIwQHNreWVuZy5ydSIsImlkZW50aXR5TG9naW4iOm51bGwsImlkZW50aXR5RW1haWwiOiJ0ZXN0LnRzdDMyMEBza3llbmcucnUiLCJpZGVudGl0eVBob25lIjoiKzc5ODU0NTg2NTY4IiwibmFtZSI6InRlc3QiLCJzdXJuYW1lIjpudWxsLCJlbWFpbCI6InRlc3QudHN0MzIwQHNreWVuZy5ydSIsInVpTGFuZ3VhZ2UiOiJydSIsImxvY2FsZSI6InJ1Iiwic2VydmljZUxvY2FsZSI6bnVsbCwidWFzIjozMCwiand0VHlwZSI6MSwianRpIjoiUkdFM01wNUlZZ1NralFZV0ZvVXVwNkRFQVN0UTF0RWoiLCJicmFuZCI6bnVsbCwiZXhwIjoxNjg3MDgxNzcyLCJhSXNTdHJvbmciOnRydWUsImFUeXBlIjoiVVNFUk5BTUVfUEFTU1dPUkQiLCJhVGltZSI6MTY4Njc1MDA4OSwicm9sZXMiOlsiUk9MRV9URUFDSEVSX0NBTkRJREFURSIsIlJPTEVfVEVBQ0hFUl9DQU5ESURBVEVfQkFTRV9BQ0NFU1MiLCJST0xFX1RUQ19VU0FHRSIsIlJPTEVfVklNQk9YX1RFQUNIRVJfVVNBR0UiLCJST0xFX1RFQUNIRVIiLCJST0xFX0NSTTJfVEVBQ0hFUl9BQ0NFU1MiLCJST0xFX01BVEhfVEVBQ0hFUiIsIlJPTEVfTUFUSF9DT05URU5UX1RIRU1FX1ZJRVciXX0.yagYdy4CHkfoQI_s4Uuk0am3LIwND5VU7btF_3t7qTJwdjxwEuP3odZKtQgmk22JEeHM8qWorHaVDeBZ9f4Rv4uxulFLd6Mm90ZHXwuxVez0k8NHzm-C1BEw8fJnMCz0E1fl8PZ1FIKwrc9a6Fl8E2_EXqjC4MtCaVw-Y5TqMmCdOiJ_ftz6PSs_3QAtOhTxHHUnKFT9k19yDvV7QPeJ318ztCKe7iZ15brd4WAAG8rwc1XGNdzIxzX4fPWBpIuXreOzf9HvzsJ3oJljQ1P0muQwqLCKB9zZ_PzE6llV1enHoJi-P3YdTc4NM00yluxjS7o1AmSMIAsDYjkEzB6MO30GVxkj77Pk_JmhiixAowCGsht58EsbNs8V0Df2EG5xfGkdSJFMWLgfxcXmvnmvTwiBXmQiZ34STNPj3kVQH1gp7St_6uCuGd8N5Ylb6P_ZShM7k6JSnaBI3kzSHy_FodwrIXIGt0bFAOV32bxzSBDXca3MZGkrNOYIjs71pqJgFStsYeOu7b-9colnu7thLBa3Gdrs3pXU6Vu2guBFG1qI0efh0FUD1slpD8oK_rMdljju-TTLR_gbqzcBnMWY1HjE1ZZ6kGV6H2csA5GGYQ1vyUEo8-CL80cQdQgvYezcCiUy4h0eb4M8tOwSLuG5DsgCf6BbBTAeaIfC-xJsscQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"token\": \"{{tokendip}}\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api-vimbox.skyeng.ru/api/v1/compilations/showcase?token_global={{tokendip}}",
+					"protocol": "https",
+					"host": [
+						"api-vimbox",
+						"skyeng",
+						"ru"
+					],
+					"path": [
+						"api",
+						"v1",
+						"compilations",
+						"showcase"
+					],
+					"query": [
+						{
+							"key": "token_global",
+							"value": "{{tokendip}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "token_global=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1c2VySWQiOjE0NzIwMDY5LCJpZGVudGl0eSI6InRlc3QudHN0MzIwQHNreWVuZy5ydSIsImlkZW50aXR5TG9naW4iOm51bGwsImlkZW50aXR5RW1haWwiOiJ0ZXN0LnRzdDMyMEBza3llbmcucnUiLCJpZGVudGl0eVBob25lIjoiKzc5ODU0NTg2NTY4IiwibmFtZSI6InRlc3QiLCJzdXJuYW1lIjpudWxsLCJlbWFpbCI6InRlc3QudHN0MzIwQHNreWVuZy5ydSIsInVpTGFuZ3VhZ2UiOiJydSIsImxvY2FsZSI6InJ1Iiwic2VydmljZUxvY2FsZSI6bnVsbCwidWFzIjozMCwiand0VHlwZSI6MSwianRpIjoiUkdFM01wNUlZZ1NralFZV0ZvVXVwNkRFQVN0UTF0RWoiLCJicmFuZCI6bnVsbCwiZXhwIjoxNjg3MDgxNzcyLCJhSXNTdHJvbmciOnRydWUsImFUeXBlIjoiVVNFUk5BTUVfUEFTU1dPUkQiLCJhVGltZSI6MTY4Njc1MDA4OSwicm9sZXMiOlsiUk9MRV9URUFDSEVSX0NBTkRJREFURSIsIlJPTEVfVEVBQ0hFUl9DQU5ESURBVEVfQkFTRV9BQ0NFU1MiLCJST0xFX1RUQ19VU0FHRSIsIlJPTEVfVklNQk9YX1RFQUNIRVJfVVNBR0UiLCJST0xFX1RFQUNIRVIiLCJST0xFX0NSTTJfVEVBQ0hFUl9BQ0NFU1MiLCJST0xFX01BVEhfVEVBQ0hFUiIsIlJPTEVfTUFUSF9DT05URU5UX1RIRU1FX1ZJRVciXX0.yagYdy4CHkfoQI_s4Uuk0am3LIwND5VU7btF_3t7qTJwdjxwEuP3odZKtQgmk22JEeHM8qWorHaVDeBZ9f4Rv4uxulFLd6Mm90ZHXwuxVez0k8NHzm-C1BEw8fJnMCz0E1fl8PZ1FIKwrc9a6Fl8E2_EXqjC4MtCaVw-Y5TqMmCdOiJ_ftz6PSs_3QAtOhTxHHUnKFT9k19yDvV7QPeJ318ztCKe7iZ15brd4WAAG8rwc1XGNdzIxzX4fPWBpIuXreOzf9HvzsJ3oJljQ1P0muQwqLCKB9zZ_PzE6llV1enHoJi-P3YdTc4NM00yluxjS7o1AmSMIAsDYjkEzB6MO30GVxkj77Pk_JmhiixAowCGsht58EsbNs8V0Df2EG5xfGkdSJFMWLgfxcXmvnmvTwiBXmQiZ34STNPj3kVQH1gp7St_6uCuGd8N5Ylb6P_ZShM7k6JSnaBI3kzSHy_FodwrIXIGt0bFAOV32bxzSBDXca3MZGkrNOYIjs71pqJgFStsYeOu7b-9colnu7thLBa3Gdrs3pXU6Vu2guBFG1qI0efh0FUD1slpD8oK_rMdljju-TTLR_gbqzcBnMWY1HjE1ZZ6kGV6H2csA5GGYQ1vyUEo8-CL80cQdQgvYezcCiUy4h0eb4M8tOwSLuG5DsgCf6BbBTAeaIfC-xJsscQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"token\": \"{{tokendip}}\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api-vimbox.skyeng.ru/api/v1/compilations/showcase?token_global={{tokendip}}",
+					"protocol": "https",
+					"host": [
+						"api-vimbox",
+						"skyeng",
+						"ru"
+					],
+					"path": [
+						"api",
+						"v1",
+						"compilations",
+						"showcase"
+					],
+					"query": [
+						{
+							"key": "token_global",
+							"value": "{{tokendip}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "token_global=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1c2VySWQiOjE0NzIwMDY5LCJpZGVudGl0eSI6InRlc3QudHN0MzIwQHNreWVuZy5ydSIsImlkZW50aXR5TG9naW4iOm51bGwsImlkZW50aXR5RW1haWwiOiJ0ZXN0LnRzdDMyMEBza3llbmcucnUiLCJpZGVudGl0eVBob25lIjoiKzc5ODU0NTg2NTY4IiwibmFtZSI6InRlc3QiLCJzdXJuYW1lIjpudWxsLCJlbWFpbCI6InRlc3QudHN0MzIwQHNreWVuZy5ydSIsInVpTGFuZ3VhZ2UiOiJydSIsImxvY2FsZSI6InJ1Iiwic2VydmljZUxvY2FsZSI6bnVsbCwidWFzIjozMCwiand0VHlwZSI6MSwianRpIjoiUkdFM01wNUlZZ1NralFZV0ZvVXVwNkRFQVN0UTF0RWoiLCJicmFuZCI6bnVsbCwiZXhwIjoxNjg3MDgxNzcyLCJhSXNTdHJvbmciOnRydWUsImFUeXBlIjoiVVNFUk5BTUVfUEFTU1dPUkQiLCJhVGltZSI6MTY4Njc1MDA4OSwicm9sZXMiOlsiUk9MRV9URUFDSEVSX0NBTkRJREFURSIsIlJPTEVfVEVBQ0hFUl9DQU5ESURBVEVfQkFTRV9BQ0NFU1MiLCJST0xFX1RUQ19VU0FHRSIsIlJPTEVfVklNQk9YX1RFQUNIRVJfVVNBR0UiLCJST0xFX1RFQUNIRVIiLCJST0xFX0NSTTJfVEVBQ0hFUl9BQ0NFU1MiLCJST0xFX01BVEhfVEVBQ0hFUiIsIlJPTEVfTUFUSF9DT05URU5UX1RIRU1FX1ZJRVciXX0.yagYdy4CHkfoQI_s4Uuk0am3LIwND5VU7btF_3t7qTJwdjxwEuP3odZKtQgmk22JEeHM8qWorHaVDeBZ9f4Rv4uxulFLd6Mm90ZHXwuxVez0k8NHzm-C1BEw8fJnMCz0E1fl8PZ1FIKwrc9a6Fl8E2_EXqjC4MtCaVw-Y5TqMmCdOiJ_ftz6PSs_3QAtOhTxHHUnKFT9k19yDvV7QPeJ318ztCKe7iZ15brd4WAAG8rwc1XGNdzIxzX4fPWBpIuXreOzf9HvzsJ3oJljQ1P0muQwqLCKB9zZ_PzE6llV1enHoJi-P3YdTc4NM00yluxjS7o1AmSMIAsDYjkEzB6MO30GVxkj77Pk_JmhiixAowCGsht58EsbNs8V0Df2EG5xfGkdSJFMWLgfxcXmvnmvTwiBXmQiZ34STNPj3kVQH1gp7St_6uCuGd8N5Ylb6P_ZShM7k6JSnaBI3kzSHy_FodwrIXIGt0bFAOV32bxzSBDXca3MZGkrNOYIjs71pqJgFStsYeOu7b-9colnu7thLBa3Gdrs3pXU6Vu2guBFG1qI0efh0FUD1slpD8oK_rMdljju-TTLR_gbqzcBnMWY1HjE1ZZ6kGV6H2csA5GGYQ1vyUEo8-CL80cQdQgvYezcCiUy4h0eb4M8tOwSLuG5DsgCf6BbBTAeaIfC-xJsscQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"token\": \"{{tokendip}}\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api-vimbox.skyeng.ru/api/v1/compilations/showcase?token_global={{tokendip}}",
+					"protocol": "https",
+					"host": [
+						"api-vimbox",
+						"skyeng",
+						"ru"
+					],
+					"path": [
+						"api",
+						"v1",
+						"compilations",
+						"showcase"
+					],
+					"query": [
+						{
+							"key": "token_global",
+							"value": "{{tokendip}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "tokendip",
+			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1c2VySWQiOjE0NzIwMDY5LCJpZGVudGl0eSI6InRlc3QudHN0MzIwQHNreWVuZy5ydSIsImlkZW50aXR5TG9naW4iOm51bGwsImlkZW50aXR5RW1haWwiOiJ0ZXN0LnRzdDMyMEBza3llbmcucnUiLCJpZGVudGl0eVBob25lIjoiKzc5ODU0NTg2NTY4IiwibmFtZSI6InRlc3QiLCJzdXJuYW1lIjpudWxsLCJlbWFpbCI6InRlc3QudHN0MzIwQHNreWVuZy5ydSIsInVpTGFuZ3VhZ2UiOiJydSIsImxvY2FsZSI6InJ1Iiwic2VydmljZUxvY2FsZSI6bnVsbCwidWFzIjozMCwiand0VHlwZSI6MSwianRpIjoiUkdFM01wNUlZZ1NralFZV0ZvVXVwNkRFQVN0UTF0RWoiLCJicmFuZCI6bnVsbCwiZXhwIjoxNjg3MDgxNzcyLCJhSXNTdHJvbmciOnRydWUsImFUeXBlIjoiVVNFUk5BTUVfUEFTU1dPUkQiLCJhVGltZSI6MTY4Njc1MDA4OSwicm9sZXMiOlsiUk9MRV9URUFDSEVSX0NBTkRJREFURSIsIlJPTEVfVEVBQ0hFUl9DQU5ESURBVEVfQkFTRV9BQ0NFU1MiLCJST0xFX1RUQ19VU0FHRSIsIlJPTEVfVklNQk9YX1RFQUNIRVJfVVNBR0UiLCJST0xFX1RFQUNIRVIiLCJST0xFX0NSTTJfVEVBQ0hFUl9BQ0NFU1MiLCJST0xFX01BVEhfVEVBQ0hFUiIsIlJPTEVfTUFUSF9DT05URU5UX1RIRU1FX1ZJRVciXX0.yagYdy4CHkfoQI_s4Uuk0am3LIwND5VU7btF_3t7qTJwdjxwEuP3odZKtQgmk22JEeHM8qWorHaVDeBZ9f4Rv4uxulFLd6Mm90ZHXwuxVez0k8NHzm-C1BEw8fJnMCz0E1fl8PZ1FIKwrc9a6Fl8E2_EXqjC4MtCaVw-Y5TqMmCdOiJ_ftz6PSs_3QAtOhTxHHUnKFT9k19yDvV7QPeJ318ztCKe7iZ15brd4WAAG8rwc1XGNdzIxzX4fPWBpIuXreOzf9HvzsJ3oJljQ1P0muQwqLCKB9zZ_PzE6llV1enHoJi-P3YdTc4NM00yluxjS7o1AmSMIAsDYjkEzB6MO30GVxkj77Pk_JmhiixAowCGsht58EsbNs8V0Df2EG5xfGkdSJFMWLgfxcXmvnmvTwiBXmQiZ34STNPj3kVQH1gp7St_6uCuGd8N5Ylb6P_ZShM7k6JSnaBI3kzSHy_FodwrIXIGt0bFAOV32bxzSBDXca3MZGkrNOYIjs71pqJgFStsYeOu7b-9colnu7thLBa3Gdrs3pXU6Vu2guBFG1qI0efh0FUD1slpD8oK_rMdljju-TTLR_gbqzcBnMWY1HjE1ZZ6kGV6H2csA5GGYQ1vyUEo8-CL80cQdQgvYezcCiUy4h0eb4M8tOwSLuG5DsgCf6BbBTAeaIfC-xJsscQ",
+			"type": "string"
+		}
+	]
+}
